@@ -23,3 +23,13 @@ System.out.println(revString);
 	}
 
 }
+
+//or
+
+
+//String s = "123456789";
+//StringBuilder x = new StringBuilder(s);
+//x.reverse();
+//String output = x.toString();
+//
+//System.out.println(output);

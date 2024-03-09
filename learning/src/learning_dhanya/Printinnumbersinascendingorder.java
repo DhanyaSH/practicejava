@@ -19,8 +19,9 @@ if(a>b) {
 	secondmax=a;	
 }
 	if(c>max)	{
-		max = secondmax;
-		low =secondmax ;
+	
+	  low = secondmax;
+	  secondmax = max ;
 		max= c;
 		
 	}

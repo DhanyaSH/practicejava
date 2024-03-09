@@ -7,15 +7,17 @@ public class TWO__darray {
 		
 //		If the input is string like"my name is karthik" then the output should be m=2 a=2
 
-//		String data = "my naame is karthik";
-//
-//      int totalcount = data.length();
-//     int totallengthremovingA  = data.replace("a", "").length();
-//     int totallengthremovingM = data.replace("m", "").length();
-//     int total = totalcount - totallengthremovingA;
-//     int total1 = totalcount - totallengthremovingM;
-//     System.out.println("totoal count of a:"+total+"totoal count of m:"+total1);
-//     
+		String data = "my naame is karthik";
+
+      int totalcount = data.length();
+      System.out.println(totalcount );
+     int totallengthremovingA  = data.replace("a", "").length();
+     System.out.println(totallengthremovingA);
+     int totallengthremovingM = data.replace("m", "").length();
+     int total = totalcount - totallengthremovingA;
+     int total1 = totalcount - totallengthremovingM;
+     System.out.println("totoal count of a:"+total+"totoal count of m:"+total1);
+    
      
      
      

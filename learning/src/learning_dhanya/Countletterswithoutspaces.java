@@ -6,12 +6,12 @@ public class Countletterswithoutspaces {
 		// TODO Auto-generated method stub
 		//count letter without space
 		
-//		 String str = "Hello World";
+		 String str = "Hello World";
 //		 
-//int s =  str.substring(0, 5).length();
-//int d =  str.substring(6, 11).length();
-//int w = s + d;
-//System.out.println(w);
+int s =  str.substring(0, 5).length();
+int d =  str.substring(6, 11).length();
+int w = s + d;
+System.out.println(w);
 //		 
 //		 String str1 ="hello";
 //		 System.out.println(str1.toUpperCase());

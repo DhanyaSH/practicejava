@@ -10,11 +10,7 @@ public class Mainclass  extends Test{
 //	private static final int case1 = 0;
 
 	public static void main(String[] args) {
-	
-	
-		
-		
-		
+
 		
 		
 		// TODO Auto-generated method stub
@@ -147,7 +143,7 @@ public class Mainclass  extends Test{
 //		
 		
 		
-	}}
+//	}}
 		
 		
 		
@@ -271,25 +267,25 @@ public class Mainclass  extends Test{
 		
 		//calculator program
 //	
-//		int a,b, ch;
+	int a,b, ch;
 //		
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enetr first number:");
-//		a = sc.nextInt();
-//		System.out.println("Enter second nuber :");
-//		b = sc.nextInt();
-//		System.out.println("1>Add 2->Sub 3->Div Enter your choice :Enter your choice:");
-//		ch = sc.nextInt();
-//		if(ch == 1)
-//		System.out.println("Addition="+(a+b));
-//		else if(ch == 2)
-//		System.out.println("Subtraction=" +(a-b));
-//		else if(ch == 3)
-//		System.out.println();
-//		else
-//			System.out.println("not valid");
-//		
-		
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enetr first number:");
+	a = sc.nextInt();
+		System.out.println("Enter second nuber :");
+		b = sc.nextInt();
+		System.out.println("1>Add 2->Sub 3->Div Enter your choice :Enter your choice:");
+		ch = sc.nextInt();
+		if(ch == 1)
+		System.out.println("Addition="+(a+b));
+		else if(ch == 2)
+		System.out.println("Subtraction=" +(a-b));
+		else if(ch == 3)
+		System.out.println();
+		else
+			System.out.println("not valid");
+	
+		}}	
 		//switch statement
 //		int i=1;
 //		switch(i)
